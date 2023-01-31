@@ -26,4 +26,4 @@ def details():
     return render_template('index.html',hostname_passed = hostname_from_function,host_ip_passed=hostip_from_function)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",debug=True,port=5001)
+    app.run(host="0.0.0.0",debug=True,port=5000)

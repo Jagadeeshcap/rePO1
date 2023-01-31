@@ -6,22 +6,22 @@ pipeline{
         name:"MyBoolean")
     }
     stages{
-        stage("Stage 1"){
+        stage("Bulid"){
             steps{
                 echo " This is Stage 1"
             }
         }
-        stage("Stage 2"){
+        stage("Bulid2"){
             steps{
                 echo "This is stage 2"
             }
         }
-        stage("Stage 3"){
+        stage("Bulid2"){
             steps{
                 echo "This is stage 3"
             }
         }
-        stage("Stage 4"){
+        stage("Bulid4"){
             steps{
                 echo "This is stage 4"
             }

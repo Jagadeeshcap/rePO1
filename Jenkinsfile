@@ -1,11 +1,6 @@
-pipeline{
+pipeline {
     agent any
-    parameters{
-        booleanParam(defaultValue: false,
-        description: "Enable service ?",
-        name:"MyBoolean")
-    }
-    stages{
+    stages {
         stage("Bulid"){
             steps{
                 echo " This is Stage 1"
@@ -33,4 +28,4 @@ pipeline{
         }
     }
 
-}
+
